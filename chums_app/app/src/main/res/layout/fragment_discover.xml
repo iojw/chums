@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DiscoverFragment"
+    android:background="#ffffff">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/activitiesList"
+        android:dividerHeight="5dp"
+        android:layout_gravity="left|top"
+        android:background="#6ce07d"
+        android:alpha="1.0"
+        android:layout_marginBottom="45dp" />
+</FrameLayout>
